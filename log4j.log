@@ -1,0 +1,24 @@
+2018-10-31 14:07:05,334 INFO  - HHH000204: Processing PersistenceUnitInfo [
+	name: JPADemo
+	...]
+2018-10-31 14:07:05,471 INFO  - HHH000412: Hibernate Core {5.2.16.Final}
+2018-10-31 14:07:05,472 INFO  - HHH000206: hibernate.properties not found
+2018-10-31 14:07:05,519 INFO  - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2018-10-31 14:07:05,641 WARN  - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2018-10-31 14:07:05,644 INFO  - HHH10001005: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/jpa_program_transaction_database]
+2018-10-31 14:07:05,645 INFO  - HHH10001001: Connection properties: {user=root, password=****}
+2018-10-31 14:07:05,645 INFO  - HHH10001003: Autocommit mode: false
+2018-10-31 14:07:05,647 INFO  - HHH000115: Hibernate connection pool size: 20 (min=1)
+2018-10-31 14:07:05,875 INFO  - HHH000400: Using dialect: org.hibernate.dialect.MySQL55Dialect
+2018-10-31 14:07:05,918 INFO  - HHH000423: Disabling contextual LOB creation as JDBC driver reported JDBC version [3] less than 4
+2018-10-31 14:07:06,566 INFO  - Method save is called in TrainerDao
+2018-10-31 14:07:06,696 INFO  - Method save is called in TrainerDao
+2018-10-31 14:07:06,701 INFO  - Method find is called in TrainerDao
+2018-10-31 14:07:06,719 INFO  - List of Trainees: Trainer(id=1, name=Andrei Reut, language=Java, experience=6)
+2018-10-31 14:07:06,720 INFO  - Method find is called in TrainerDao
+2018-10-31 14:07:06,721 INFO  - List of Trainees: Trainer(id=2, name=Ivan Ishchenko, language=Java, experience=6)
+2018-10-31 14:07:06,722 INFO  - Method save is called in TraineeDao
+2018-10-31 14:07:06,727 INFO  - Method save is called in TraineeDao
+2018-10-31 14:07:06,732 INFO  - Method findAll is called in TraineeDao
+2018-10-31 14:07:06,744 INFO  - HHH000397: Using ASTQueryTranslatorFactory
+2018-10-31 14:07:06,865 INFO  - List of Trainees: [Trainee(id=1, name=Olga Borzdyko, trainer=Trainer(id=2, name=Ivan Ishchenko, language=Java, experience=6)), Trainee(id=2, name=Denis Byhovsky, trainer=Trainer(id=1, name=Andrei Reut, language=Java, experience=6))]
